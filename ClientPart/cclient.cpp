@@ -53,7 +53,7 @@ void CClient::slotReadyRead()
 
 void CClient::slotError(QAbstractSocket::SocketError err)
 {
-    QString error = "SOME SHIET HAPPEND!";
+    QString error = "SOME ERROR!";
     pTextInfo->append(error);
 }
 
